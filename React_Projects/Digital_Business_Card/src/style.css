@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #23252c;
+    max-width: 100vw;
+    max-height: 120vh;
+}
+
+.Container{
+    background-color: #1a1b21;
+    width: 317px;
+    height: 780px;
+    margin: auto;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border-radius: 15px;
+}
+
+img{
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.text h1{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.text h3{
+    font-size: 14px;
+    color: #f3bf99;
+    margin-bottom: 7px;
+}
+
+.text p{
+    font-size: 10px;
+    color: #f5f5f5;
+}
+
+button{
+    width: 80%;  
+    justify-content: center;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.button_content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: small;
+}
+
+.textbox{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.textbox h1{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.textbox p{
+    font-size: 11px;
+    color: #dcdcdc;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
